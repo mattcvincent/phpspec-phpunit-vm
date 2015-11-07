@@ -3,13 +3,20 @@ A PHP starter project with phpspec, PHPUnit, and the Homestead Vagrant virtual m
 
 Use this project to quickly boostrap a new PHP project.
 
+##Requirements:
+
+- [PHP >= 5.5](http://www.php.net)
+- [Vagrant](https://www.vagrantup.com/downloads.html)
+- [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+- [Composer](https://getcomposer.org/download/)
+
 ##Directions:
 
-###Clone this project:
+###Clone this project
 
 `git clone git@github.com:gcummins/phpspec-phpunit-vm.git quickstart`
 
-###Change to the project directory:
+###Change to the project directory
 
 `cd quickstart`
 
@@ -17,7 +24,7 @@ Use this project to quickly boostrap a new PHP project.
 
 `composer install`
 
-###Prepare the virtual machine:
+###Prepare the virtual machine
 
 ```
 php vendor/bin/homestead make
