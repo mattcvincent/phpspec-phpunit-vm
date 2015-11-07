@@ -46,7 +46,7 @@ On Windows, the hosts file is at:
 
 ###Put your code in public/index.php
 
-The virtual machine will look for code in that location
+The virtual machine will look for code in that location.
 
 ###View your application in a browser
-http://homestead.app
+Browse to http://homestead.app
