@@ -4,5 +4,10 @@
         "phpunit/phpunit": "^4.8",
         "phpspec/phpspec": "^2.3",
         "php": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
     }
 }
