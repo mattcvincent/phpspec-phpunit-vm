@@ -13,6 +13,10 @@ Use this project to quickly boostrap a new PHP project.
 
 `cd quickstart`
 
+###Install the dependencies
+
+`composer install`
+
 ###Prepare the virtual machine:
 
 ```
@@ -21,7 +25,7 @@ vagrant up
 ```
 
 ###Point the test domain to the virtual machine
-Add this line to your 'hosts' file:
+Add this line to your hosts file:
 
 `192.168.10.10 homestead.app`
 
